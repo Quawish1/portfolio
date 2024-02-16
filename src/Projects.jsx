@@ -16,6 +16,7 @@ const Projects = () => {
               
                    {Sdata.map((val, ind)=>{
                     return <Cards
+                    key={ind}
                     imgsrc={val.imgsrc}
                     title={val.title}
                     description={val.description}

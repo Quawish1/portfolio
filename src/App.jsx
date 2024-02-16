@@ -4,6 +4,7 @@ import Home from './Home'
 import Contact from './Contact'
 import About from './About'
 import Projects from './Projects'
+// import Footer from './Footer'
 import {Routes,Route,Navigate} from 'react-router-dom'
 
 export class App extends Component {
@@ -19,6 +20,7 @@ export class App extends Component {
             <Route path="*" element={<Navigate to ="/" />}/>
 
         </Routes>
+        {/* <Footer/> */}
       </div>
     )
   }

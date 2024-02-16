@@ -2,7 +2,74 @@ import React from 'react'
 
 const Contact = () => {
     return(
-        <h1> Welcome Contach Page</h1>
+        <>
+        <div className="my-5">
+            <h1 className="text-center">Contact Me</h1>
+        </div>
+        <div className="container contact_div">
+            <div className='row'>
+               <div className="col-md-6 col-10 mx-auto">
+               <form action="https://formspree.io/f/xkndrvvp" method='POST'>
+
+               <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input 
+                type="name" 
+                class="form-control" 
+                id="exampleFormControlInput1" 
+                name="fullname" 
+                required
+                autoComplete='false'
+              
+                placeholder="Enter Your Name"/>
+                </div>
+
+                <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Subject</label>
+                <input 
+                type="text" 
+                class="form-control" 
+                id="exampleFormControlInput1"
+                name="Subject" 
+                required
+                placeholder="Email Subject"/>
+                </div>
+
+                <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input 
+                type="email" 
+                class="form-control" 
+                id="exampleFormControlInput1" 
+                name="email" 
+                required
+                autoComplete='false'
+                placeholder="Email@gmail.com"/>
+                </div>
+            
+                <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Messege</label>
+                <textarea 
+                name="textarea" 
+                class="form-control" 
+                id="exampleFormControlTextarea1" 
+                rows="3"
+                required
+                min="10"
+                autoComplete='false'
+                >
+                
+                </textarea>
+                </div>
+
+                <button type="Submit" class="btn btn-outline-primary">Submit</button>
+
+
+               </form>
+               </div>
+               </div>
+               </div>
+        </>   
     );
 };
 
