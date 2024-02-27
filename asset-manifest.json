@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Quawish1/portfolio.git/static/css/main.39ce0106.css",
+    "main.js": "/Quawish1/portfolio.git/static/js/main.069105be.js",
+    "static/media/img7.jpg": "/Quawish1/portfolio.git/static/media/img7.77ce3973ee450662651f.jpg",
+    "static/media/img9.png": "/Quawish1/portfolio.git/static/media/img9.6f203990a60b40c6e5c2.png",
+    "static/media/img5.jpg": "/Quawish1/portfolio.git/static/media/img5.8aa035a02ea626576fcd.jpg",
+    "static/media/img2.jpg": "/Quawish1/portfolio.git/static/media/img2.0a4893421f4eb80a395c.jpg",
+    "static/media/img6.jpg": "/Quawish1/portfolio.git/static/media/img6.12e8e699a88cd88f9b74.jpg",
+    "static/media/img3.jpg": "/Quawish1/portfolio.git/static/media/img3.b3551129eab1a73ed6ed.jpg",
+    "index.html": "/Quawish1/portfolio.git/index.html",
+    "main.39ce0106.css.map": "/Quawish1/portfolio.git/static/css/main.39ce0106.css.map",
+    "main.069105be.js.map": "/Quawish1/portfolio.git/static/js/main.069105be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39ce0106.css",
+    "static/js/main.069105be.js"
+  ]
+}
